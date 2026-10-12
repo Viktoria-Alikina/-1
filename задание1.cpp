@@ -12,5 +12,11 @@ int main(){
     float z_f=b_f*b_f;
     float result_f=c_f/z_f;
 
+    double c1=(a+b)*(a+b);
+    double c2=a*a+2.0*a*b;
+    double c=c1-c2;
+    double z=b*b;
+    double result=c/z;
+
     return 0;
 } 
