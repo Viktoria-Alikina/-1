@@ -18,5 +18,8 @@ int main(){
     double z=b*b;
     double result=c/z;
 
+    cout<<"Результат типа float = "<<result_f<<endl;
+    cout<<"результат типа double = "<<result<<endl;
+
     return 0;
 } 
