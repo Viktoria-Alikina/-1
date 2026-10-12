@@ -6,5 +6,11 @@ int main(){
     float a_f=1000.0;
     float b_f=0.0001;
 
+    float c1_f=(a_f+b_f)*(a_f+b_f);
+    float c2_f=a_f*a_f+2.0*a_f*b_f;
+    float c_f=c1_f-c2_f;
+    float z_f=b_f*b_f;
+    float result_f=c_f/z_f;
+
     return 0;
 } 
